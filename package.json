@@ -1,0 +1,23 @@
+{
+  "name": "js-test-project",
+  "version": "1.0.0",
+  "description": "A simple project with a single failing test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**.test.ts"
+  },
+  "author": "Eduardo Fernandes Marques",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1"
+  }
+}
